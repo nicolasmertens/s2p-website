@@ -13,11 +13,11 @@
         "warningColor": "#ffffff",
         "dangerColor": "#ffffff",
         "mainFont": "IBM Plex Sans",
-        "display1Font": "Jost",
+        "display1Font": "Montserrat",
         "display1Size": 4.6,
-        "display2Font": "Jost",
+        "display2Font": "Montserrat",
         "display2Size": 3,
-        "display5Font": "Jost",
+        "display5Font": "Montserrat",
         "display5Size": 2.2,
         "display7Font": "Jost",
         "display7Size": 1.2,
@@ -45,6 +45,16 @@
         "css": "'Jost', sans-serif",
         "name": "Jost",
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Montserrat', sans-serif",
+        "name": "Montserrat",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      },
+      {
+        "css": "'Lato', sans-serif",
+        "name": "Lato",
+        "url": "https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
       }
     ],
     "uniqCompNum": 38,
