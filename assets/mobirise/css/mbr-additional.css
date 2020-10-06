@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap);
 
 
@@ -26,11 +27,11 @@ body {
 }
 .display-4 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.75rem;
 }
 .display-5 {
   font-family: 'Montserrat', sans-serif;
@@ -41,12 +42,12 @@ body {
   font-size: 2.75rem;
 }
 .display-7 {
-  font-family: 'Jost', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -70,9 +71,9 @@ body {
     line-height: calc( 1.3 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.88rem;
-    font-size: calc( 1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.0350000000000001rem + (1.1 - 1.0350000000000001) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.76rem;
@@ -80,9 +81,9 @@ body {
     line-height: calc( 1.4 * (1.42rem + (2.2 - 1.42) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.96rem;
-    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.28rem;
+    font-size: calc( 1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.21rem + (1.6 - 1.21) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -594,12 +595,12 @@ a:hover {
 }
 .form-control {
   font-family: 'Jost', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.75rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -608,12 +609,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'Jost', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.375rem;
+  font-size: 1.75rem;
 }
 blockquote {
   border-color: #ffffff;
@@ -1063,30 +1064,69 @@ a {
 .cid-sczsMjVvij .card-box {
   color: #ffffff;
 }
-.cid-sczx3ANMds {
+.cid-scFRQjCsW8 {
   padding-top: 6rem;
-  padding-bottom: 9rem;
+  padding-bottom: 6rem;
   background-color: #ffffff;
 }
-@media (min-width: 1500px) {
-  .cid-sczx3ANMds .container {
-    max-width: 1400px;
+.cid-scFRQjCsW8 .row {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .cid-scFRQjCsW8 .row {
+    flex-direction: column-reverse;
+  }
+  .cid-scFRQjCsW8 .image-wrapper {
+    margin-bottom: 2rem;
+  }
+  .cid-scFRQjCsW8 .card-wrapper {
+    padding: 0 1rem;
   }
 }
-.cid-sczx3ANMds .mbr-iconfont {
-  display: block;
-  font-size: 5rem;
+@media (min-width: 992px) {
+  .cid-scFRQjCsW8 .card-wrapper {
+    padding-right: 2rem;
+  }
+}
+.cid-scFRQjCsW8 .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-scFRQjCsW8 .card-title {
   color: #4998f3;
-  margin-bottom: 2rem;
 }
-.cid-sczx3ANMds .card-wrapper {
-  margin-top: 3rem;
+.cid-scFRQjCsW8 .mbr-text,
+.cid-scFRQjCsW8 .mbr-section-btn {
+  color: #353535;
 }
-.cid-sczx3ANMds .row {
-  justify-content: center;
+.cid-scFVVtQXSt {
+  padding-top: 0rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
 }
-.cid-sczx3ANMds .card-title,
-.cid-sczx3ANMds .iconfont-wrapper {
+.cid-scFVVtQXSt .video-wrapper iframe {
+  width: 100%;
+}
+.cid-scFVVtQXSt .mbr-section-title,
+.cid-scFVVtQXSt .mbr-description {
+  text-align: center;
+}
+.cid-scFVVtQXSt .text-wrapper {
+  padding: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-scFVVtQXSt .text-wrapper {
+    padding: 2rem;
+    padding-right: 4rem;
+  }
+}
+.cid-scFVVtQXSt .mbr-section-subtitle {
+  color: #4998f3;
+}
+.cid-scFVVtQXSt .mbr-text {
+  color: #353535;
+}
+.cid-scFVVtQXSt .mbr-description {
   color: #4998f3;
 }
 .cid-sczybN2fNu {
@@ -1154,7 +1194,7 @@ a {
 .cid-sczCuJHXTw {
   padding-top: 8rem;
   padding-bottom: 9rem;
-  background-color: #bed3f9;
+  background-image: url("../../../assets/images/background1.jpg");
 }
 @media (min-width: 1500px) {
   .cid-sczCuJHXTw .container {
@@ -1188,7 +1228,7 @@ a {
 .cid-sczDVK5hUB {
   padding-top: 10rem;
   padding-bottom: 9rem;
-  background-color: #8caff0;
+  background-image: url("../../../assets/images/background4.jpg");
 }
 .cid-sczGm4W2Vn {
   padding-top: 1rem;
