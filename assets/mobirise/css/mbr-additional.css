@@ -1154,7 +1154,7 @@ a {
 .cid-sczCuJHXTw {
   padding-top: 8rem;
   padding-bottom: 9rem;
-  background-color: #4998f3;
+  background-color: #bed3f9;
 }
 @media (min-width: 1500px) {
   .cid-sczCuJHXTw .container {
@@ -1188,11 +1188,11 @@ a {
 .cid-sczDVK5hUB {
   padding-top: 10rem;
   padding-bottom: 9rem;
-  background-color: #4998f3;
+  background-color: #8caff0;
 }
 .cid-sczGm4W2Vn {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
   background-color: #4998f3;
 }
 .cid-sczGm4W2Vn .mbr-iconfont {
@@ -1233,7 +1233,7 @@ a {
   background-color: #4998f3;
 }
 .cid-sczHsYHJua img {
-  width: 120px;
+  width: 240px;
   margin: auto;
 }
 .cid-sczHsYHJua .card {
@@ -1245,6 +1245,6 @@ a {
 }
 @media (min-width: 992px) {
   .cid-sczHsYHJua .card {
-    max-width: 12.5%;
+    max-width: 33%;
   }
 }
