@@ -1197,6 +1197,19 @@ a {
 .cid-scRdr3D4xx .mbr-section-title {
   color: #ffffff;
 }
+.cid-scRdr3D4xx #my-div {
+  width: 600px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.cid-scRdr3D4xx #my-iframe {
+  position: absolute;
+  top: -200px;
+  left: -350px;
+  width: 1280px;
+  height: 1200px;
+}
 .cid-sczCuJHXTw {
   padding-top: 8rem;
   padding-bottom: 9rem;
