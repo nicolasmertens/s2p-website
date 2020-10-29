@@ -61,7 +61,7 @@
       }
     ],
     "uniqCompNum": 52,
-    "versionPublish": "5.2.0",
+    "versionPublish": "5.1.4",
     "imageResize": true,
     "screenshot": "screenshot.png",
     "dppsSwitcher": true,
@@ -81,7 +81,7 @@
         "main": true,
         "title": "S2P Signature comparison technology",
         "meta_descr": "S2P's proprietary technology allows to compare your users signature inputs. This way you can be informed of the fraud that is happening on your systems much sooner than possible today.",
-        "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-170976076-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-170976076-1');\n</script>\n\n",
+        "header_custom": "",
         "footer_custom": "",
         "html_before": ""
       },
